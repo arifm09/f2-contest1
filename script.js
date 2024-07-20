@@ -7,7 +7,12 @@ let arr = [
 ];
 
 function PrintDeveloperbyMap() {
-  //Write your code here , just console.log
+    let arr1 = arr.map( (obj,index) => {
+        if(arr[index].profession=="developer"){
+          console.log(obj);
+        }
+    })
+   
 }
 
 function PrintDeveloperbyForEach() {
